@@ -1,6 +1,6 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {AngularFireAuth} from '@angular/fire/auth';
-import {ErrorLogger, IErrorLogger} from '../../../../sneat-ui-core/src/lib/logging/error-logger.interface';
+import {ErrorLogger, IErrorLogger} from '@sneat-team/ui-core';
 
 @Component({
 	selector: 'app-sign-in',

@@ -24,7 +24,7 @@ import {
 	RandomId,
 	IToaster,
 	Toaster,
-} from 'sneat-ui-core'; // TODO: should be impoted from "@sneat-team/ui-core"?
+} from '@sneat-team/ui-core'; // TODO: should be impoted from "@sneat-team/ui-core"?
 
 type AuthProviderName = 'Google' | 'Microsoft' | 'Facebook' | 'GitHub';
 
