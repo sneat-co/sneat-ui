@@ -5,19 +5,26 @@ import 'firebase/auth';
 import {Component, Inject} from '@angular/core';
 import {AngularFireAuth} from '@angular/fire/auth';
 import {ActivatedRoute} from '@angular/router';
-import {ErrorLogger, IErrorLogger} from '../../logging/error-logger.interface';
-import {RandomId} from '../../util/auto-id';
-import {ILoginEventsHandler, LoginEventsHandler} from '../auth.interface';
-import {AnalyticsService, IAnalyticsService} from '../../analytics/analytics.interface';
-import {UserService} from '../user.service';
-import {SneatTeamApiService} from '../../sneat-team-api.service';
-import {IToaster, Toaster} from '../../ui/toaster.interface';
 import GoogleAuthProvider = firebase.auth.GoogleAuthProvider;
 import OAuthProvider = firebase.auth.OAuthProvider;
 import FacebookAuthProvider = firebase.auth.FacebookAuthProvider;
 import GithubAuthProvider = firebase.auth.GithubAuthProvider;
 import AuthProvider = firebase.auth.AuthProvider;
 import UserCredential = firebase.auth.UserCredential;
+import {NavController} from '@ionic/angular';
+import {
+	ErrorLogger,
+	IErrorLogger,
+	SneatTeamApiService,
+	UserService,
+	AnalyticsService,
+	IAnalyticsService,
+	ILoginEventsHandler,
+	LoginEventsHandler,
+	RandomId,
+	IToaster,
+	Toaster,
+} from 'sneat-ui-core'; // TODO: should be impoted from "@sneat-team/ui-core"?
 
 type AuthProviderName = 'Google' | 'Microsoft' | 'Facebook' | 'GitHub';
 
@@ -33,6 +40,7 @@ export class LoginPage {
 	public email = '';
 	public password = '';
 	public fullName = '';
+	public redirectTo?: string;
 	public to?: string;
 	public action?: Action; // TODO: document possible values?
 	public sign: 'in' | 'up' = 'up'; // TODO: document here what 'in' & 'up' means
@@ -44,7 +52,7 @@ export class LoginPage {
 		@Inject(LoginEventsHandler) private readonly loginEventsHandler: ILoginEventsHandler,
 		private readonly route: ActivatedRoute,
 		private readonly afAuth: AngularFireAuth,
-		// private readonly navController: NavController,
+		private readonly navController: NavController,
 		private readonly userService: UserService,
 		// private readonly toastController: ToastController,
 		private readonly sneatTeamApiService: SneatTeamApiService,
@@ -52,6 +60,9 @@ export class LoginPage {
 		this.email = localStorage.getItem('emailForSignIn') || '';
 		if (this.email) {
 			this.sign = 'in';
+		}
+		if (location.hash.startsWith('#/')) {
+			this.redirectTo = location.hash
 		}
 		this.to = this.route.snapshot.queryParams.to; // should we subscribe? I believe no.
 		const action = location.hash.match(/[#&]action=(\w+)/);
@@ -192,7 +203,7 @@ export class LoginPage {
 	}
 
 	private onLoggedIn(userCredential: UserCredential): void {
-		console.log('userCredential:', userCredential);
+		console.log('LoginPage.onLoggedIn(userCredential):', userCredential);
 		if (userCredential.user) {
 			this.userService.onUserSignedIn(userCredential.user);
 		}
@@ -201,12 +212,16 @@ export class LoginPage {
 		if (queryParams) {
 			delete queryParams.to;
 		}
-		if (to) {
-			// this.navController.navigateRoot(to, {queryParams, fragment: location.hash.substring(1)})
-			// 	.catch(this.errorLogger.logErrorHandler('Failed to naviage to: ' + to));
-		} else {
-			this.loginEventsHandler.onLoggedIn();
-		}
+		// if (to) {
+		// 	// this.navController.navigateRoot(to, {queryParams, fragment: location.hash.substring(1)})
+		// 	// 	.catch(this.errorLogger.logErrorHandler('Failed to naviage to: ' + to));
+		// } else {
+		// 	this.loginEventsHandler.onLoggedIn();
+		// }
+		console.log('this.redirectTo:', this.redirectTo);
+		const redirectTo = this.redirectTo || '/my'; // TODO: default one should be app specific.
+		this.navController.navigateRoot(redirectTo)
+			.catch(this.errorLogger.logErrorHandler('Failed to navigate back to ' + redirectTo));
 	}
 
 	private handleError(m: string, eventName?: string, eventParams?: { [key: string]: string }): (err: any) => void {

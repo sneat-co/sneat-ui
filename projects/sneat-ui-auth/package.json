@@ -1,7 +1,8 @@
 {
-  "name": "sneat-ui-auth",
+  "name": "@sneat-team/ui-auth",
   "version": "0.0.1",
   "peerDependencies": {
+    "@sneat-team/ui-core": "^0.0.6",
     "@angular/common": "^11.0.6",
     "@angular/core": "^11.0.6"
   },

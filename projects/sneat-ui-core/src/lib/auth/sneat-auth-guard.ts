@@ -17,7 +17,16 @@ import {AuthPipe} from '@angular/fire/auth-guard';
 
 type AuthCanLoadPipeGenerator = (route: Route, segments: UrlSegment[]) => AuthPipe;
 
-export const redirectToLoginIfNotSignedIn: AuthPipe = map(user => !user ? '/login' : true);
+export const redirectToLoginIfNotSignedIn: AuthPipe = map(user => {
+	if (user) {
+		return true;
+	}
+	let url =  '/login';
+	if (location.pathname != '/') {
+		url += '#' + location.pathname;
+	}
+	return url;
+});
 
 @Injectable()
 export class SneatAuthGuard implements CanLoad, CanActivate, CanActivateChild {

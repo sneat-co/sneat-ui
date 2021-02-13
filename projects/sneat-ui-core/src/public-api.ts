@@ -10,6 +10,7 @@ export * from './lib/ui/toaster.interface';
 export * from './lib/ui/toaster.service';
 export * from './lib/auth/auth.interface';
 export * from './lib/auth/sneat-auth-guard';
-export * from './lib/auth/sneat-auth-routing.module';
 export * from './lib/auth/user.service';
+export * from './lib/util/auto-id';
+export * from './lib/sneat-team-api.service';
 export {sneatUiCoreProviders} from './providers';
