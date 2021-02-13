@@ -20,17 +20,17 @@
       "dom"
     ],
     "paths": {
-      "sneat-ui-core": [
-        "dist/sneat-ui-core/sneat-ui-core",
-        "dist/sneat-ui-core"
+      "core": [
+        "dist/core/core",
+        "dist/core"
       ],
-      "sneat-ui-teams": [
-        "dist/sneat-ui-teams/sneat-ui-teams",
-        "dist/sneat-ui-teams"
+      "teams": [
+        "dist/teams/teams",
+        "dist/teams"
       ],
-      "sneat-ui-auth": [
-        "dist/sneat-ui-auth/sneat-ui-auth",
-        "dist/sneat-ui-auth"
+      "auth": [
+        "dist/auth/auth",
+        "dist/auth"
       ]
     }
   },

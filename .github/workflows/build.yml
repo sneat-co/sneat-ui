@@ -46,7 +46,7 @@ jobs:
          - name: npm run build:ci
            working-directory: ./
            run: |
-              npm run build:ci sneat-ui-core
+              npm run build:ci core
 
          - name: test
            working-directory: ./

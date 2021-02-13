@@ -3,38 +3,38 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sneat-ui-core": {
+    "core": {
       "projectType": "library",
-      "root": "projects/sneat-ui-core",
-      "sourceRoot": "projects/sneat-ui-core/src",
+      "root": "projects/core",
+      "sourceRoot": "projects/core/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/sneat-ui-core/tsconfig.lib.json",
-            "project": "projects/sneat-ui-core/ng-package.json"
+            "tsConfig": "projects/core/tsconfig.lib.json",
+            "project": "projects/core/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/sneat-ui-core/tsconfig.lib.prod.json"
+              "tsConfig": "projects/core/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/sneat-ui-core/src/test.ts",
-            "tsConfig": "projects/sneat-ui-core/tsconfig.spec.json",
-            "karmaConfig": "projects/sneat-ui-core/karma.conf.js"
+            "main": "projects/core/src/test.ts",
+            "tsConfig": "projects/core/tsconfig.spec.json",
+            "karmaConfig": "projects/core/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/sneat-ui-core/tsconfig.lib.json",
-              "projects/sneat-ui-core/tsconfig.spec.json"
+              "projects/core/tsconfig.lib.json",
+              "projects/core/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -43,38 +43,38 @@
         }
       }
     },
-    "sneat-ui-teams": {
+    "teams": {
       "projectType": "library",
-      "root": "projects/sneat-ui-teams",
-      "sourceRoot": "projects/sneat-ui-teams/src",
+      "root": "projects/teams",
+      "sourceRoot": "projects/teams/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/sneat-ui-teams/tsconfig.lib.json",
-            "project": "projects/sneat-ui-teams/ng-package.json"
+            "tsConfig": "projects/teams/tsconfig.lib.json",
+            "project": "projects/teams/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/sneat-ui-teams/tsconfig.lib.prod.json"
+              "tsConfig": "projects/teams/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/sneat-ui-teams/src/test.ts",
-            "tsConfig": "projects/sneat-ui-teams/tsconfig.spec.json",
-            "karmaConfig": "projects/sneat-ui-teams/karma.conf.js"
+            "main": "projects/teams/src/test.ts",
+            "tsConfig": "projects/teams/tsconfig.spec.json",
+            "karmaConfig": "projects/teams/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/sneat-ui-teams/tsconfig.lib.json",
-              "projects/sneat-ui-teams/tsconfig.spec.json"
+              "projects/teams/tsconfig.lib.json",
+              "projects/teams/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -83,38 +83,38 @@
         }
       }
     },
-    "sneat-ui-auth": {
+    "auth": {
       "projectType": "library",
-      "root": "projects/sneat-ui-auth",
-      "sourceRoot": "projects/sneat-ui-auth/src",
+      "root": "projects/auth",
+      "sourceRoot": "projects/auth/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/sneat-ui-auth/tsconfig.lib.json",
-            "project": "projects/sneat-ui-auth/ng-package.json"
+            "tsConfig": "projects/auth/tsconfig.lib.json",
+            "project": "projects/auth/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/sneat-ui-auth/tsconfig.lib.prod.json"
+              "tsConfig": "projects/auth/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/sneat-ui-auth/src/test.ts",
-            "tsConfig": "projects/sneat-ui-auth/tsconfig.spec.json",
-            "karmaConfig": "projects/sneat-ui-auth/karma.conf.js"
+            "main": "projects/auth/src/test.ts",
+            "tsConfig": "projects/auth/tsconfig.spec.json",
+            "karmaConfig": "projects/auth/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/sneat-ui-auth/tsconfig.lib.json",
-              "projects/sneat-ui-auth/tsconfig.spec.json"
+              "projects/auth/tsconfig.lib.json",
+              "projects/auth/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -123,32 +123,32 @@
         }
       }
     },
-    "sneat-ui-demo": {
+    "demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
         }
       },
-      "root": "projects/sneat-ui-demo",
-      "sourceRoot": "projects/sneat-ui-demo/src",
+      "root": "projects/demo",
+      "sourceRoot": "projects/demo/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sneat-ui-demo",
-            "index": "projects/sneat-ui-demo/src/index.html",
-            "main": "projects/sneat-ui-demo/src/main.ts",
-            "polyfills": "projects/sneat-ui-demo/src/polyfills.ts",
-            "tsConfig": "projects/sneat-ui-demo/tsconfig.app.json",
+            "outputPath": "dist/demo",
+            "index": "projects/demo/src/index.html",
+            "main": "projects/demo/src/main.ts",
+            "polyfills": "projects/demo/src/polyfills.ts",
+            "tsConfig": "projects/demo/tsconfig.app.json",
             "aot": true,
             "assets": [
-              "projects/sneat-ui-demo/src/favicon.ico",
-              "projects/sneat-ui-demo/src/assets"
+              "projects/demo/src/favicon.ico",
+              "projects/demo/src/assets"
             ],
             "styles": [
-              "projects/sneat-ui-demo/src/styles.scss"
+              "projects/demo/src/styles.scss"
             ],
             "scripts": []
           },
@@ -156,8 +156,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "projects/sneat-ui-demo/src/environments/environment.ts",
-                  "with": "projects/sneat-ui-demo/src/environments/environment.prod.ts"
+                  "replace": "projects/demo/src/environments/environment.ts",
+                  "with": "projects/demo/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -185,33 +185,33 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "sneat-ui-demo:build"
+            "browserTarget": "demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "sneat-ui-demo:build:production"
+              "browserTarget": "demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sneat-ui-demo:build"
+            "browserTarget": "demo:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/sneat-ui-demo/src/test.ts",
-            "polyfills": "projects/sneat-ui-demo/src/polyfills.ts",
-            "tsConfig": "projects/sneat-ui-demo/tsconfig.spec.json",
-            "karmaConfig": "projects/sneat-ui-demo/karma.conf.js",
+            "main": "projects/demo/src/test.ts",
+            "polyfills": "projects/demo/src/polyfills.ts",
+            "tsConfig": "projects/demo/tsconfig.spec.json",
+            "karmaConfig": "projects/demo/karma.conf.js",
             "assets": [
-              "projects/sneat-ui-demo/src/favicon.ico",
-              "projects/sneat-ui-demo/src/assets"
+              "projects/demo/src/favicon.ico",
+              "projects/demo/src/assets"
             ],
             "styles": [
-              "projects/sneat-ui-demo/src/styles.scss"
+              "projects/demo/src/styles.scss"
             ],
             "scripts": []
           }
@@ -220,9 +220,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/sneat-ui-demo/tsconfig.app.json",
-              "projects/sneat-ui-demo/tsconfig.spec.json",
-              "projects/sneat-ui-demo/e2e/tsconfig.json"
+              "projects/demo/tsconfig.app.json",
+              "projects/demo/tsconfig.spec.json",
+              "projects/demo/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -232,12 +232,12 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/sneat-ui-demo/e2e/protractor.conf.js",
-            "devServerTarget": "sneat-ui-demo:serve"
+            "protractorConfig": "projects/demo/e2e/protractor.conf.js",
+            "devServerTarget": "demo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "sneat-ui-demo:serve:production"
+              "devServerTarget": "demo:serve:production"
             }
           }
         }
@@ -247,5 +247,5 @@
   "cli": {
     "analytics": "4bb17ff2-7331-467f-958c-840f844cfe61"
   },
-  "defaultProject": "sneat-ui-core"
+  "defaultProject": "core"
 }
