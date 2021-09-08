@@ -13,7 +13,7 @@ specifiers:
   '@angular/compiler': 12.2.4
   '@angular/compiler-cli': 12.2.4
   '@angular/core': 12.2.4
-  '@angular/fire': 6.1.5
+  '@angular/fire': 7.0.4
   '@angular/forms': 12.2.4
   '@angular/platform-browser': 12.2.4
   '@angular/platform-browser-dynamic': 12.2.4
@@ -54,7 +54,7 @@ dependencies:
   '@angular/common': 12.2.4_@angular+core@12.2.4+rxjs@6.6.7
   '@angular/compiler': 12.2.4
   '@angular/core': 12.2.4_rxjs@6.6.7+zone.js@0.11.4
-  '@angular/fire': 6.1.5_c677f9559b833b22609fa39cbd3f6d5b
+  '@angular/fire': 7.0.4_c677f9559b833b22609fa39cbd3f6d5b
   '@angular/forms': 12.2.4_cf887d031145d5606b4856a9417a9133
   '@angular/platform-browser': 12.2.4_1456d0f6caaa82c4761090c5c241bf69
   '@angular/platform-browser-dynamic': 12.2.4_ea9804479aff58b7db59775c063baa6e
@@ -477,15 +477,16 @@ packages:
       zone.js: 0.10.3
     dev: true
 
-  /@angular/fire/6.1.5_c677f9559b833b22609fa39cbd3f6d5b:
-    resolution: {integrity: sha512-jrstSStogpfJvhlrX8ajtsnbVzIzcrh/InYUGbMVzXyQoT6wHA0LODjR6eIzGhb9/YQ+myMuVelJ39PfU3e8Sg==}
+  /@angular/fire/7.0.4_c677f9559b833b22609fa39cbd3f6d5b:
+    resolution: {integrity: sha512-ypaH0QXOMvzcihVluPflUrspi/RowW0qIVRG/WyvgYnsxPdVvM76eJtSSu1BOlKCRK76fkyMwSvO1UYOmTtLVQ==}
     peerDependencies:
-      '@angular/common': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
-      '@angular/core': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
-      '@angular/platform-browser': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
-      '@angular/platform-browser-dynamic': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
-      firebase: ^7.0 || ^8.0
-      rxjs: ^6.5.3
+      '@angular/common': ^12.0.0
+      '@angular/core': ^12.0.0
+      '@angular/platform-browser': ^12.0.0
+      '@angular/platform-browser-dynamic': ^12.0.0
+      firebase: ^9.0.0
+      rxfire: ^6.0.0
+      rxjs: ~6.6.0
     dependencies:
       '@angular/common': 12.2.4_@angular+core@12.2.4+rxjs@6.6.7
       '@angular/core': 12.2.4_rxjs@6.6.7+zone.js@0.11.4
