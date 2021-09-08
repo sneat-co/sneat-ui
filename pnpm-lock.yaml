@@ -13,7 +13,7 @@ specifiers:
   '@angular/compiler': 11.0.9
   '@angular/compiler-cli': 11.0.9
   '@angular/core': 11.0.9
-  '@angular/fire': ^6.1.4
+  '@angular/fire': 6.1.5
   '@angular/forms': 11.0.9
   '@angular/platform-browser': 11.0.9
   '@angular/platform-browser-dynamic': 11.0.9
@@ -54,7 +54,7 @@ dependencies:
   '@angular/common': 11.0.9_@angular+core@11.0.9+rxjs@6.6.7
   '@angular/compiler': 11.0.9
   '@angular/core': 11.0.9_rxjs@6.6.7+zone.js@0.10.3
-  '@angular/fire': 6.1.4_47cc99bb684d824fc2203659f70712b4
+  '@angular/fire': 6.1.5_47cc99bb684d824fc2203659f70712b4
   '@angular/forms': 11.0.9_547a5a74c7ad7cb982807b140f6ac950
   '@angular/platform-browser': 11.0.9_0d11ba2a2337edbaa2684af2277e7862
   '@angular/platform-browser-dynamic': 11.0.9_8383343813cdfa803f2f916e7857b4c5
@@ -458,13 +458,13 @@ packages:
       zone.js: 0.10.3
     dev: true
 
-  /@angular/fire/6.1.4_47cc99bb684d824fc2203659f70712b4:
-    resolution: {integrity: sha512-5u305XnBC041JMrAtczLa0bdprxw7RkXy4kgcRCisPI8maGuiN4XzlwNYX+plCHZCo4R0motxQom//tPTA2edQ==}
+  /@angular/fire/6.1.5_47cc99bb684d824fc2203659f70712b4:
+    resolution: {integrity: sha512-jrstSStogpfJvhlrX8ajtsnbVzIzcrh/InYUGbMVzXyQoT6wHA0LODjR6eIzGhb9/YQ+myMuVelJ39PfU3e8Sg==}
     peerDependencies:
-      '@angular/common': ^9.0.0 || ^10.0.0 || ^11.0.0
-      '@angular/core': ^9.0.0 || ^10.0.0 || ^11.0.0
-      '@angular/platform-browser': ^9.0.0 || ^10.0.0 || ^11.0.0
-      '@angular/platform-browser-dynamic': ^9.0.0 || ^10.0.0 || ^11.0.0
+      '@angular/common': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
+      '@angular/core': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
+      '@angular/platform-browser': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
+      '@angular/platform-browser-dynamic': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
       firebase: ^7.0 || ^8.0
       rxjs: ^6.5.3
     dependencies:
@@ -474,7 +474,7 @@ packages:
       '@angular/platform-browser-dynamic': 11.0.9_8383343813cdfa803f2f916e7857b4c5
       firebase: 8.10.0
       rxjs: 6.6.7
-      tslib: 2.1.0
+      tslib: 2.3.1
     dev: false
 
   /@angular/forms/11.0.9_547a5a74c7ad7cb982807b140f6ac950:
