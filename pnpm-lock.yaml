@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular-devkit/build-angular': 0.1100.7
-  '@angular-eslint/builder': ^1.1.0
-  '@angular-eslint/eslint-plugin': ^1.1.0
-  '@angular-eslint/eslint-plugin-template': ^1.1.0
-  '@angular-eslint/schematics': ^1.1.0
-  '@angular-eslint/template-parser': ^1.1.0
+  '@angular-eslint/builder': 1.2.0
+  '@angular-eslint/eslint-plugin': 1.2.0
+  '@angular-eslint/eslint-plugin-template': 1.2.0
+  '@angular-eslint/schematics': 1.2.0
+  '@angular-eslint/template-parser': 1.2.0
   '@angular/animations': 11.0.9
   '@angular/cli': 11.0.7
   '@angular/common': 11.0.9
@@ -74,11 +74,11 @@ dependencies:
 
 devDependencies:
   '@angular-devkit/build-angular': 0.1100.7_fe5c07f97b9ff0a55ac2ce5832a17d21
-  '@angular-eslint/builder': 1.1.0_eslint@7.32.0+typescript@4.0.8
-  '@angular-eslint/eslint-plugin': 1.1.0_6f65cebeabc9858ae2d4665fba7a2445
-  '@angular-eslint/eslint-plugin-template': 1.1.0_257d18c349139996f9efcc33025f6bb0
-  '@angular-eslint/schematics': 1.1.0_1e2173536006371b336e643d9129c9c9
-  '@angular-eslint/template-parser': 1.1.0_846b1779c50f9ce6ec0328302a86e603
+  '@angular-eslint/builder': 1.2.0_eslint@7.32.0+typescript@4.0.8
+  '@angular-eslint/eslint-plugin': 1.2.0_6f65cebeabc9858ae2d4665fba7a2445
+  '@angular-eslint/eslint-plugin-template': 1.2.0_b7f976ae48c1761b1869ec956d17c190
+  '@angular-eslint/schematics': 1.2.0_9f9e69be57569be88ff3df86140043d0
+  '@angular-eslint/template-parser': 1.2.0_846b1779c50f9ce6ec0328302a86e603
   '@angular/cli': 11.0.7
   '@angular/compiler-cli': 11.0.9_aab76092b5b3750685d979650ea2c3f1
   '@types/jasmine': 3.6.11
@@ -262,8 +262,8 @@ packages:
       rxjs: 6.6.3
     dev: true
 
-  /@angular-eslint/builder/1.1.0_eslint@7.32.0+typescript@4.0.8:
-    resolution: {integrity: sha512-VXQY+lLqN7KqqyoV/p5avp1qxavtspy3266QetMzy6Dh+6BYWznA3YPO8TMgEG/JwpFLXuLBdc8YUg8hVeZCcA==}
+  /@angular-eslint/builder/1.2.0_eslint@7.32.0+typescript@4.0.8:
+    resolution: {integrity: sha512-bYIut4edOq/RWyYsi3Z5NW/wEHSGLpjXfQ38zbdRlsX93+N8nAu1hf5ishbnpkEobEyerktoRVmRI8UXPsijjg==}
     peerDependencies:
       '@angular-devkit/architect': ~0.1001.4 || ~0.1100.1
       eslint: '*'
@@ -273,14 +273,14 @@ packages:
       typescript: 4.0.8
     dev: true
 
-  /@angular-eslint/eslint-plugin-template/1.1.0_257d18c349139996f9efcc33025f6bb0:
-    resolution: {integrity: sha512-WAU6qnQQ52H+C3BaLNxgVAXf8LA8pqPRaq38nWf3dcSQsHzbyfsez39n2XzK0w+w2VaSY3bPAmOWW5K+RM9VxQ==}
+  /@angular-eslint/eslint-plugin-template/1.2.0_b7f976ae48c1761b1869ec956d17c190:
+    resolution: {integrity: sha512-Oi/y+N/FETuyhbVuFxbkCqSfLo61CAvIPwnQQCfDku/IsCSTI1SjW+B2xO9thDI5po7t5V+3n26uMLQsWNZmlw==}
     peerDependencies:
       '@angular-eslint/template-parser': '*'
       eslint: '*'
       typescript: '*'
     dependencies:
-      '@angular-eslint/template-parser': 1.1.0_846b1779c50f9ce6ec0328302a86e603
+      '@angular-eslint/template-parser': 1.2.0_846b1779c50f9ce6ec0328302a86e603
       '@typescript-eslint/experimental-utils': 4.3.0_eslint@7.32.0+typescript@4.0.8
       aria-query: 4.2.2
       axobject-query: 2.2.0
@@ -290,8 +290,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular-eslint/eslint-plugin/1.1.0_6f65cebeabc9858ae2d4665fba7a2445:
-    resolution: {integrity: sha512-gL0RAx9+hD2Sm39ZH/sRZYS6TKY6oRzCaYEw8yO0/poL9AescJprTIfwzUnPwzIH78kkWI9B8xRClrk0u+5ZEQ==}
+  /@angular-eslint/eslint-plugin/1.2.0_6f65cebeabc9858ae2d4665fba7a2445:
+    resolution: {integrity: sha512-HxSDdAS2/lbwYBJmRVRKlx5wjiKdeBPl7JJlciwhrP7QR01a66AWun+fW1ZpMnnqivkF+D5sISsoedRLthRcwA==}
     peerDependencies:
       eslint: '*'
       eslint-plugin-import: '*'
@@ -309,14 +309,14 @@ packages:
       - supports-color
     dev: true
 
-  /@angular-eslint/schematics/1.1.0_1e2173536006371b336e643d9129c9c9:
-    resolution: {integrity: sha512-LuAM0Wcan0l+Ol/CNMHJIAz/H8Y3kreO7ZS/jpMV3JnYo8ThvnD6av/MulI6OvMG5pxToEjCyFDyG/JJzh57Og==}
+  /@angular-eslint/schematics/1.2.0_9f9e69be57569be88ff3df86140043d0:
+    resolution: {integrity: sha512-F0Mb6XyLWGmmtov5kv/BHvt22Uo/FuD4y2WhO7NUA9rZRJd+anmyHCkC9HXmNKUuLQIUKjJ4DJgsmD0Kh0Hr2g==}
     peerDependencies:
       '@angular-devkit/core': '*'
       '@angular-devkit/schematics': '*'
     dependencies:
-      '@angular-eslint/eslint-plugin': 1.1.0_6f65cebeabc9858ae2d4665fba7a2445
-      '@angular-eslint/eslint-plugin-template': 1.1.0_257d18c349139996f9efcc33025f6bb0
+      '@angular-eslint/eslint-plugin': 1.2.0_6f65cebeabc9858ae2d4665fba7a2445
+      '@angular-eslint/eslint-plugin-template': 1.2.0_b7f976ae48c1761b1869ec956d17c190
       strip-json-comments: 3.1.1
       tslint-to-eslint-config: 2.0.1_eslint@7.32.0
     transitivePeerDependencies:
@@ -329,8 +329,8 @@ packages:
       - typescript
     dev: true
 
-  /@angular-eslint/template-parser/1.1.0_846b1779c50f9ce6ec0328302a86e603:
-    resolution: {integrity: sha512-WiIhuA3oQj7/ofuy4GyZunMSxbc4OTUKZqVGjBRhXKoEFsIpw2DBf4TCUoHawshIvr7j/CW74I15j6A6sZ7gwA==}
+  /@angular-eslint/template-parser/1.2.0_846b1779c50f9ce6ec0328302a86e603:
+    resolution: {integrity: sha512-EfNJh0nFGJInHa2ccVw8Eb9ujWoUAwaQMCi9GppzYrqhSPc0YZqdQg4eIW2AlZs1giHD2Ko/V1rphzw+9gisCw==}
     peerDependencies:
       '@angular/compiler': '*'
       eslint: '*'
@@ -6055,12 +6055,6 @@ packages:
       rgba-regex: 1.0.0
     dev: true
 
-  /is-core-module/2.2.0:
-    resolution: {integrity: sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==}
-    dependencies:
-      has: 1.0.3
-    dev: true
-
   /is-core-module/2.6.0:
     resolution: {integrity: sha512-wShG8vs60jKfPWpF2KZRaAtvt3a20OAn7+IJ6hLPECpSABLcKtFKTTI4ZtH5QcBruBHlq+WsdHWyz0BCZW7svQ==}
     dependencies:
@@ -8891,13 +8885,6 @@ packages:
       path-parse: 1.0.6
     dev: true
 
-  /resolve/1.19.0:
-    resolution: {integrity: sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==}
-    dependencies:
-      is-core-module: 2.2.0
-      path-parse: 1.0.6
-    dev: true
-
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
     dependencies:
@@ -10217,7 +10204,7 @@ packages:
       js-yaml: 3.14.1
       minimatch: 3.0.4
       mkdirp: 0.5.5
-      resolve: 1.19.0
+      resolve: 1.20.0
       semver: 5.7.1
       tslib: 1.14.1
       tsutils: 2.29.0_typescript@4.1.2
