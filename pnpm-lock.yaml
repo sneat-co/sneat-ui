@@ -26,7 +26,7 @@ specifiers:
   '@sentry/minimal': 6.12.0
   '@sentry/utils': 6.12.0
   '@types/jasmine': 3.9.0
-  '@types/node': 12.20.24
+  '@types/node': 14.17.15
   codelyzer: 6.0.2
   eslint: 7.32.0
   eslint-plugin-import: 2.24.2
@@ -82,7 +82,7 @@ devDependencies:
   '@angular/cli': 12.2.4
   '@angular/compiler-cli': 12.2.4_d766b4f4d40154cb6821d5fd20e75eab
   '@types/jasmine': 3.9.0
-  '@types/node': 12.20.24
+  '@types/node': 14.17.15
   codelyzer: 6.0.2
   eslint: 7.32.0
   eslint-plugin-import: 2.24.2_eslint@7.32.0
@@ -95,7 +95,7 @@ devDependencies:
   karma-coverage: 2.0.3
   karma-jasmine: 4.0.1_karma@5.2.3
   karma-jasmine-html-reporter: 1.7.0_735ab5ee4220a449b17b7555b00632c4
-  ng-packagr: 11.2.4_77089e480f6ed4f9216e64b2f0797af4
+  ng-packagr: 11.2.4_ccc4250209f2f99c1803ace62c212b0d
   protractor: 7.0.0
   ts-node: 8.10.2_typescript@4.0.8
   typescript: 4.0.8
@@ -189,7 +189,7 @@ packages:
       loader-utils: 2.0.0
       mini-css-extract-plugin: 2.2.1_webpack@5.50.0
       minimatch: 3.0.4
-      ng-packagr: 11.2.4_77089e480f6ed4f9216e64b2f0797af4
+      ng-packagr: 11.2.4_ccc4250209f2f99c1803ace62c212b0d
       open: 8.2.1
       ora: 5.4.1
       parse5-html-rewriting-stream: 6.0.1
@@ -2653,12 +2653,12 @@ packages:
     resolution: {integrity: sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==}
     dev: true
 
-  /@types/node/12.20.24:
-    resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
-    dev: true
-
   /@types/node/13.13.40:
     resolution: {integrity: sha512-eKaRo87lu1yAXrzEJl0zcJxfUMDT5/mZalFyOkT44rnQps41eS2pfWzbaulSPpQLFNy29bFqn+Y5lOTL8ATlEQ==}
+
+  /@types/node/14.17.15:
+    resolution: {integrity: sha512-D1sdW0EcSCmNdLKBGMYb38YsHUS6JcM7yQ6sLQ9KuZ35ck7LYCKE7kYFHOO59ayFOY3zobWVZxf4KXhYHcHYFA==}
+    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -7692,7 +7692,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /ng-packagr/11.2.4_77089e480f6ed4f9216e64b2f0797af4:
+  /ng-packagr/11.2.4_ccc4250209f2f99c1803ace62c212b0d:
     resolution: {integrity: sha512-pAZYRWe4duLx6bXgfNKgT2XBHiepWz2sA+CaJ9UYEbLHE+QxYGtw/PJAC6o0zRDv1bBCkv5oquKTyTZtYjkAQQ==}
     hasBin: true
     peerDependencies:
@@ -7722,7 +7722,7 @@ packages:
       postcss-url: 10.1.3_postcss@8.3.6
       rimraf: 3.0.2
       rollup: 2.38.0
-      rollup-plugin-sourcemaps: 0.6.3_5afb913648846256e672ce1c8623473b
+      rollup-plugin-sourcemaps: 0.6.3_200cb49da5f80d05bec9d3fbb20330b7
       rxjs: 6.6.7
       sass: 1.32.5
       stylus: 0.54.8
@@ -9870,7 +9870,7 @@ packages:
       glob: 7.1.6
     dev: true
 
-  /rollup-plugin-sourcemaps/0.6.3_5afb913648846256e672ce1c8623473b:
+  /rollup-plugin-sourcemaps/0.6.3_200cb49da5f80d05bec9d3fbb20330b7:
     resolution: {integrity: sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -9881,7 +9881,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.38.0
-      '@types/node': 12.20.24
+      '@types/node': 14.17.15
       rollup: 2.38.0
       source-map-resolve: 0.6.0
     dev: true
