@@ -51,7 +51,7 @@
     "eslint-plugin-import": "2.24.2",
     "eslint-plugin-jsdoc": "31.6.1",
     "eslint-plugin-prefer-arrow": "1.2.3",
-    "jasmine-core": "3.6.0",
+    "jasmine-core": "3.9.0",
     "jasmine-spec-reporter": "5.0.2",
     "karma": "5.2.3",
     "karma-chrome-launcher": "3.1.0",
