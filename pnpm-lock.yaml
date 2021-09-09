@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular-devkit/build-angular': 12.2.5
-  '@angular-eslint/builder': 12.3.1
-  '@angular-eslint/eslint-plugin': 12.3.1
-  '@angular-eslint/eslint-plugin-template': 12.3.1
-  '@angular-eslint/schematics': 12.3.1
-  '@angular-eslint/template-parser': 12.3.1
+  '@angular-eslint/builder': 12.4.1
+  '@angular-eslint/eslint-plugin': 12.4.1
+  '@angular-eslint/eslint-plugin-template': 12.4.1
+  '@angular-eslint/schematics': 12.4.1
+  '@angular-eslint/template-parser': 12.4.1
   '@angular/animations': 12.2.5
   '@angular/cli': 12.2.5
   '@angular/common': 12.2.5
@@ -74,11 +74,11 @@ dependencies:
 
 devDependencies:
   '@angular-devkit/build-angular': 12.2.5_c00f3bb89481fc40ef6aee4a869ac8f5
-  '@angular-eslint/builder': 12.3.1_b3f4539251cefa98167de1a491b3a9c6
-  '@angular-eslint/eslint-plugin': 12.3.1_24884dcb7da80300180cf85de5d4d19d
-  '@angular-eslint/eslint-plugin-template': 12.3.1_24884dcb7da80300180cf85de5d4d19d
-  '@angular-eslint/schematics': 12.3.1_3d9a683dab7ec325e14544fcf4ce6e01
-  '@angular-eslint/template-parser': 12.3.1_24884dcb7da80300180cf85de5d4d19d
+  '@angular-eslint/builder': 12.4.1_b3f4539251cefa98167de1a491b3a9c6
+  '@angular-eslint/eslint-plugin': 12.4.1_24884dcb7da80300180cf85de5d4d19d
+  '@angular-eslint/eslint-plugin-template': 12.4.1_24884dcb7da80300180cf85de5d4d19d
+  '@angular-eslint/schematics': 12.4.1_3d9a683dab7ec325e14544fcf4ce6e01
+  '@angular-eslint/template-parser': 12.4.1_24884dcb7da80300180cf85de5d4d19d
   '@angular/cli': 12.2.5
   '@angular/compiler-cli': 12.2.5_99dd3b42fe64aa2a470ecc895975a67b
   '@types/jasmine': 3.9.0
@@ -283,21 +283,21 @@ packages:
       rxjs: 6.6.7
     dev: true
 
-  /@angular-eslint/builder/12.3.1_b3f4539251cefa98167de1a491b3a9c6:
-    resolution: {integrity: sha512-Py7Y9n0evIWGgEIrnMaLvalE1+Nw9HoY+fcYLYd9POfY0cug8j7hbkoPQ6rM7GzNHVcVsqEi/8C4DoF7RXXNRg==}
+  /@angular-eslint/builder/12.4.1_b3f4539251cefa98167de1a491b3a9c6:
+    resolution: {integrity: sha512-mHYvPqCn55E4zqz9KG5hG5ecnftJxlo2hYftyY0enF9CHv95uHD90cVYDt4oc//QmAKqzyB9Rm4D6I8aCpeNnQ==}
     peerDependencies:
       '@angular/cli': '>= 12.0.0 < 13.0.0'
       eslint: '*'
       typescript: '*'
     dependencies:
       '@angular/cli': 12.2.5
-      '@nrwl/devkit': 12.9.0
+      '@nrwl/devkit': 12.6.0
       eslint: 7.32.0
       typescript: 4.0.8
     dev: true
 
-  /@angular-eslint/eslint-plugin-template/12.3.1_24884dcb7da80300180cf85de5d4d19d:
-    resolution: {integrity: sha512-pz+nO64ma/9Sp2aeRnQ+Vktt7Fo1Lay/J+CG//3TIc3lYsoCTj4h42P6yCcxxJ9b4N7SUxMAnchA8eE5mJS4Ug==}
+  /@angular-eslint/eslint-plugin-template/12.4.1_24884dcb7da80300180cf85de5d4d19d:
+    resolution: {integrity: sha512-XfyvME1/Ikyy1wNXxhbXoRWDM4fH9tUfsO0nYEX/C2HXDzjDyeuT54eZzLGrNnkDom1IEw12V7Dwjm+R/rkL/g==}
     peerDependencies:
       '@angular/compiler': '>= 12.0.0 < 13.0.0'
       eslint: '*'
@@ -313,8 +313,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular-eslint/eslint-plugin/12.3.1_24884dcb7da80300180cf85de5d4d19d:
-    resolution: {integrity: sha512-KBm27onYggRcusA/BxuSkDGpVnIs8yG4ARio8ZAhe0H2XIRJTzJZ7oIBBjugDau03AGX3VMG6wAXailjJvsywg==}
+  /@angular-eslint/eslint-plugin/12.4.1_24884dcb7da80300180cf85de5d4d19d:
+    resolution: {integrity: sha512-C4ZINz1KBvhz8xWogqU5BHwcPBtgTj6RghgZ18DqXVME5jzIHgWALwl+C1BidNeFQvASlOTHfI4KjIT2VJPoDQ==}
     peerDependencies:
       '@angular/compiler': '>= 12.0.0 < 13.0.0'
       eslint: '*'
@@ -328,13 +328,13 @@ packages:
       - supports-color
     dev: true
 
-  /@angular-eslint/schematics/12.3.1_3d9a683dab7ec325e14544fcf4ce6e01:
-    resolution: {integrity: sha512-r1yZaqyO0oJhKDIWio3gH9TWpWEN8bUpiftgkkR6Yyc4hKBbiR5N4RQo5aZ5bnGytdW8QP8zq2k1yYBWjhEX7A==}
+  /@angular-eslint/schematics/12.4.1_3d9a683dab7ec325e14544fcf4ce6e01:
+    resolution: {integrity: sha512-pVsn4Q2BPmz/1G21o90pYSVtSrCvh4pjPijUtH7M5uviR35CzF7ac4Sd+5q+W4f2YJfHqRrtY7JpgnyZVm7VzA==}
     peerDependencies:
       '@angular/cli': '>= 12.0.0 < 13.0.0'
     dependencies:
-      '@angular-eslint/eslint-plugin': 12.3.1_24884dcb7da80300180cf85de5d4d19d
-      '@angular-eslint/eslint-plugin-template': 12.3.1_24884dcb7da80300180cf85de5d4d19d
+      '@angular-eslint/eslint-plugin': 12.4.1_24884dcb7da80300180cf85de5d4d19d
+      '@angular-eslint/eslint-plugin-template': 12.4.1_24884dcb7da80300180cf85de5d4d19d
       '@angular/cli': 12.2.5
       ignore: 5.1.8
       strip-json-comments: 3.1.1
@@ -346,8 +346,8 @@ packages:
       - typescript
     dev: true
 
-  /@angular-eslint/template-parser/12.3.1_24884dcb7da80300180cf85de5d4d19d:
-    resolution: {integrity: sha512-6DkXqTaVEHZdcN3isHQ2CDoTsKLuJ5C1SYEOuFzOU1Zp85SvjxO92v6gPkFPKk0iQNVRmQS2XcKef6weehUUGA==}
+  /@angular-eslint/template-parser/12.4.1_24884dcb7da80300180cf85de5d4d19d:
+    resolution: {integrity: sha512-t+DaFcoXKpilFvAAprD9cxfNOjMRbY3nIhIvigs3G3UaDS6HXisLKNhU+mBUjSXwJksQSp0fvNC4tbVlf3k6qg==}
     peerDependencies:
       '@angular/compiler': '>= 12.0.0 < 13.0.0'
       eslint: '*'
@@ -1800,13 +1800,7 @@ packages:
     resolution: {integrity: sha512-roGr54CsTmNPPzZoCP1AmDXuBoNao7tnSA83TXTwt+UK5QVyh1DIJnrgYRPWKCF2flqZQXwa7Yr8v7VmLzF0YQ==}
     dependencies:
       core-js-pure: 3.8.3
-      regenerator-runtime: 0.13.7
-    dev: true
-
-  /@babel/runtime/7.12.5:
-    resolution: {integrity: sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==}
-    dependencies:
-      regenerator-runtime: 0.13.7
+      regenerator-runtime: 0.13.9
     dev: true
 
   /@babel/runtime/7.14.8:
@@ -2540,21 +2534,10 @@ packages:
       read-package-json-fast: 2.0.3
     dev: true
 
-  /@nrwl/cli/12.9.0:
-    resolution: {integrity: sha512-YKTZ3G07f6Y4MedOOkBmCi1Y72gu3ssCk2J50wL76SaiSjJTUSAz1NkKLsPwO6S8/QloMSR71tI42HJG2bbpwQ==}
-    hasBin: true
+  /@nrwl/devkit/12.6.0:
+    resolution: {integrity: sha512-tvw/4n2JD/38UuzdxFCoj1+x02BAKK4EvtLhwUK5XSBF0wDYFBp5rHfxvUD9ZcoiRRrZA4QGFjhDljrfj95F2A==}
     dependencies:
-      '@nrwl/tao': 12.9.0
-      chalk: 4.1.0
-      v8-compile-cache: 2.3.0
-      yargs: 15.4.1
-      yargs-parser: 20.0.0
-    dev: true
-
-  /@nrwl/devkit/12.9.0:
-    resolution: {integrity: sha512-mobW2XKmQicTdhn0XQStNnYmhMC0Aj7qqX9lS/8IX561PtgocR0MPH9rTWOfNECpwHhj2YwTRTHjQfgv29btxw==}
-    dependencies:
-      '@nrwl/tao': 12.9.0
+      '@nrwl/tao': 12.6.0
       ejs: 3.1.6
       ignore: 5.1.8
       rxjs: 6.6.7
@@ -2562,15 +2545,14 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@nrwl/tao/12.9.0:
-    resolution: {integrity: sha512-a97JYoLohhBRthnWAGMh3++8Ri/yvCQUG/INBAYxW6sWAk2owJ6DIEIERP4yhIW29HPdqZ/fA2k9iqU6EgIAew==}
+  /@nrwl/tao/12.6.0:
+    resolution: {integrity: sha512-h6X+mqmTlZjA9nqlyPAu9TFNORHAMcC1BD8H8kA8lTHN1nktLHQ266qpHVLsxcqww2EYsVqQaKaOpUacck49+w==}
     hasBin: true
     dependencies:
       chalk: 4.1.0
       enquirer: 2.3.6
       fs-extra: 9.1.0
       jsonc-parser: 3.0.0
-      nx: 12.9.0
       rxjs: 6.6.7
       rxjs-for-await: 0.0.2_rxjs@6.6.7
       semver: 7.3.4
@@ -2812,10 +2794,6 @@ packages:
     resolution: {integrity: sha512-x7aAO0c4EpBEJkUd/v012GLO7tDXXtv+t7Cz5xK+WdSmitH27eHgsQr+36CblfJFuqBQ0++O0xgBTuaKJnB4fg==}
     dev: true
 
-  /@types/json-schema/7.0.7:
-    resolution: {integrity: sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==}
-    dev: true
-
   /@types/json-schema/7.0.9:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}
     dev: true
@@ -2875,7 +2853,7 @@ packages:
     peerDependencies:
       eslint: '*'
     dependencies:
-      '@types/json-schema': 7.0.7
+      '@types/json-schema': 7.0.9
       '@typescript-eslint/scope-manager': 4.28.2
       '@typescript-eslint/types': 4.28.2
       '@typescript-eslint/typescript-estree': 4.28.2_typescript@4.0.8
@@ -2911,7 +2889,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 4.28.2
       '@typescript-eslint/visitor-keys': 4.28.2
-      debug: 4.3.1
+      debug: 4.3.2
       globby: 11.0.4
       is-glob: 4.0.1
       semver: 7.3.5
@@ -3298,7 +3276,7 @@ packages:
     resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
     engines: {node: '>=6.0'}
     dependencies:
-      '@babel/runtime': 7.12.5
+      '@babel/runtime': 7.14.8
       '@babel/runtime-corejs3': 7.12.5
     dev: true
 
@@ -5555,7 +5533,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       at-least-node: 1.0.0
-      graceful-fs: 4.2.4
+      graceful-fs: 4.2.8
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: true
@@ -7686,13 +7664,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /nx/12.9.0:
-    resolution: {integrity: sha512-AOyMJPpioeMtY1UJ2Zgxyjfsc6rg31uztqiCZIQEOLwXoYIYiPuz54IhTngW7c1MjtxDl8B62G8xCjlRv2zjhw==}
-    hasBin: true
-    dependencies:
-      '@nrwl/cli': 12.9.0
-    dev: true
-
   /oauth-sign/0.9.0:
     resolution: {integrity: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==}
     dev: true
@@ -9086,10 +9057,6 @@ packages:
 
   /regenerate/1.4.2:
     resolution: {integrity: sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==}
-    dev: true
-
-  /regenerator-runtime/0.13.7:
-    resolution: {integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==}
     dev: true
 
   /regenerator-runtime/0.13.9:
@@ -10545,10 +10512,6 @@ packages:
 
   /v8-compile-cache/2.2.0:
     resolution: {integrity: sha512-gTpR5XQNKFwOd4clxfnhaqvfqMpqEwr4tOtCyz4MtYZX2JYhfr1JvBFKdS+7K/9rfpZR3VLX+YWBbKoxCgS43Q==}
-    dev: true
-
-  /v8-compile-cache/2.3.0:
-    resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
   /validate-npm-package-license/3.0.4:
