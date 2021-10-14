@@ -26,7 +26,7 @@ specifiers:
   '@sentry/minimal': 6.12.0
   '@sentry/utils': 6.12.0
   '@types/jasmine': 3.9.0
-  '@types/node': 14.17.15
+  '@types/node': 14.17.27
   codelyzer: 6.0.2
   eslint: 7.32.0
   eslint-plugin-import: 2.25.2
@@ -82,7 +82,7 @@ devDependencies:
   '@angular/cli': 12.2.5
   '@angular/compiler-cli': 12.2.5_99dd3b42fe64aa2a470ecc895975a67b
   '@types/jasmine': 3.9.0
-  '@types/node': 14.17.15
+  '@types/node': 14.17.27
   codelyzer: 6.0.2
   eslint: 7.32.0
   eslint-plugin-import: 2.25.2_eslint@7.32.0
@@ -95,9 +95,9 @@ devDependencies:
   karma-coverage: 2.0.3
   karma-jasmine: 4.0.1_karma@6.3.4
   karma-jasmine-html-reporter: 1.7.0_510d50a9818d347be3ec4f30de4c4d7b
-  ng-packagr: 12.2.1_9d641a3ed324ec101b9a2749a7841fc9
+  ng-packagr: 12.2.1_5501d52bdedbf53c9fb550958ed38c58
   protractor: 7.0.0
-  ts-node: 10.2.1_bf32ee5b395886e929ab44b4a58cfbb2
+  ts-node: 10.2.1_536982d48edcd7819184189898c320fd
   typescript: 4.0.8
 
 packages:
@@ -189,7 +189,7 @@ packages:
       loader-utils: 2.0.0
       mini-css-extract-plugin: 2.2.1_webpack@5.50.0
       minimatch: 3.0.4
-      ng-packagr: 12.2.1_9d641a3ed324ec101b9a2749a7841fc9
+      ng-packagr: 12.2.1_5501d52bdedbf53c9fb550958ed38c58
       open: 8.2.1
       ora: 5.4.1
       parse5-html-rewriting-stream: 6.0.1
@@ -2816,6 +2816,10 @@ packages:
 
   /@types/node/14.17.15:
     resolution: {integrity: sha512-D1sdW0EcSCmNdLKBGMYb38YsHUS6JcM7yQ6sLQ9KuZ35ck7LYCKE7kYFHOO59ayFOY3zobWVZxf4KXhYHcHYFA==}
+
+  /@types/node/14.17.27:
+    resolution: {integrity: sha512-94+Ahf9IcaDuJTle/2b+wzvjmutxXAEXU6O81JHblYXUg2BDG+dnBy7VxIPHKAyEEDHzCMQydTJuWvrE+Aanzw==}
+    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -7412,7 +7416,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /ng-packagr/12.2.1_9d641a3ed324ec101b9a2749a7841fc9:
+  /ng-packagr/12.2.1_5501d52bdedbf53c9fb550958ed38c58:
     resolution: {integrity: sha512-awX/sRmURikw6YjcDzrz2+/SJ4yOr1MTgv4OitSeMXfwBlG5zJLN36mLQn49fYBFecBV+lcAosh0OYJuAueU5g==}
     engines: {node: ^12.14.1 || >=14.0.0}
     hasBin: true
@@ -7444,7 +7448,7 @@ packages:
       postcss-preset-env: 6.7.0
       postcss-url: 10.1.3_postcss@8.3.6
       rollup: 2.56.3
-      rollup-plugin-sourcemaps: 0.6.3_79d3263248eb98f080781a8d703318e6
+      rollup-plugin-sourcemaps: 0.6.3_c1c97be6135ba481086ce4ff07c13bb8
       rxjs: 6.6.7
       sass: 1.36.0
       stylus: 0.54.8
@@ -9192,7 +9196,7 @@ packages:
     dependencies:
       glob: 7.1.7
 
-  /rollup-plugin-sourcemaps/0.6.3_79d3263248eb98f080781a8d703318e6:
+  /rollup-plugin-sourcemaps/0.6.3_c1c97be6135ba481086ce4ff07c13bb8:
     resolution: {integrity: sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -9203,7 +9207,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.56.3
-      '@types/node': 14.17.15
+      '@types/node': 14.17.27
       rollup: 2.56.3
       source-map-resolve: 0.6.0
     dev: true
@@ -10161,7 +10165,7 @@ packages:
     hasBin: true
     dev: true
 
-  /ts-node/10.2.1_bf32ee5b395886e929ab44b4a58cfbb2:
+  /ts-node/10.2.1_536982d48edcd7819184189898c320fd:
     resolution: {integrity: sha512-hCnyOyuGmD5wHleOQX6NIjJtYVIO8bPP8F2acWkB4W06wdlkgyvJtubO/I9NkI88hCFECbsEgoLc0VNkYmcSfw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -10181,7 +10185,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 14.17.15
+      '@types/node': 14.17.27
       acorn: 8.5.0
       acorn-walk: 8.2.0
       arg: 4.1.3
