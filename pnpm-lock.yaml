@@ -19,7 +19,7 @@ specifiers:
   '@angular/platform-browser-dynamic': 12.2.14
   '@angular/router': 12.2.14
   '@ionic/angular': 5.7.0
-  '@ionic/core': 5.7.0
+  '@ionic/core': 5.9.4
   '@sentry/browser': 6.12.0
   '@sentry/core': 6.12.0
   '@sentry/hub': 6.12.0
@@ -60,7 +60,7 @@ dependencies:
   '@angular/platform-browser-dynamic': 12.2.14_442418796259eab646309caa3a362e35
   '@angular/router': 12.2.14_d60fa1aeec5307532f59bf85094c4f7a
   '@ionic/angular': 5.7.0_e67359eea0b4335c60ed15c839d62207
-  '@ionic/core': 5.7.0
+  '@ionic/core': 5.9.4
   '@sentry/browser': 6.12.0
   '@sentry/core': 6.12.0
   '@sentry/hub': 6.12.0
@@ -2394,6 +2394,14 @@ packages:
 
   /@ionic/core/5.7.0:
     resolution: {integrity: sha512-5GunAeZWDhjbo4/gFCYjA4vXP3V+8PEoGa9C+ZEojurpk7IBuAtI36KalCukrHLPoIbfUCywTXoZubfC1S6lHQ==}
+    dependencies:
+      '@stencil/core': 2.8.0
+      ionicons: 5.5.3
+      tslib: 2.3.1
+    dev: false
+
+  /@ionic/core/5.9.4:
+    resolution: {integrity: sha512-Ngz9yVT6fIiGdSxxBer8uJxP4w6PasvohYpLxhtMgYiWnyIu0vZra2ui3HrYukCzUo5/SbNPiUr1l7cj1E+7qw==}
     dependencies:
       '@stencil/core': 2.8.0
       ionicons: 5.5.3
