@@ -29,7 +29,7 @@
     "@sentry/utils": "6.19.7",
     "@sentry/hub": "6.19.7",
     "@sentry/minimal": "6.19.7",
-    "ionicons": "5.5.3",
+    "ionicons": "5.5.4",
     "firebase": "9.10.0",
     "rxjs": "7.3.0",
     "tslib": "2.3.1",

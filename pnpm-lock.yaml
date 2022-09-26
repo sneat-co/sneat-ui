@@ -33,7 +33,7 @@ specifiers:
   eslint-plugin-jsdoc: 36.1.0
   eslint-plugin-prefer-arrow: 1.2.3
   firebase: 9.10.0
-  ionicons: 5.5.3
+  ionicons: 5.5.4
   jasmine-core: 3.9.0
   jasmine-spec-reporter: 7.0.0
   karma: 6.3.4
@@ -67,7 +67,7 @@ dependencies:
   '@sentry/minimal': 6.19.7
   '@sentry/utils': 6.19.7
   firebase: 9.10.0
-  ionicons: 5.5.3
+  ionicons: 5.5.4
   rxjs: 7.3.0
   tslib: 2.3.1
   zone.js: 0.11.4
@@ -2397,8 +2397,8 @@ packages:
   /@ionic/core/5.7.0:
     resolution: {integrity: sha512-5GunAeZWDhjbo4/gFCYjA4vXP3V+8PEoGa9C+ZEojurpk7IBuAtI36KalCukrHLPoIbfUCywTXoZubfC1S6lHQ==}
     dependencies:
-      '@stencil/core': 2.8.0
-      ionicons: 5.5.3
+      '@stencil/core': 2.10.0
+      ionicons: 5.5.4
       tslib: 2.3.1
     dev: false
 
@@ -2406,7 +2406,7 @@ packages:
     resolution: {integrity: sha512-Ngz9yVT6fIiGdSxxBer8uJxP4w6PasvohYpLxhtMgYiWnyIu0vZra2ui3HrYukCzUo5/SbNPiUr1l7cj1E+7qw==}
     dependencies:
       '@stencil/core': 2.8.0
-      ionicons: 5.5.3
+      ionicons: 5.5.4
       tslib: 2.3.1
     dev: false
 
@@ -2738,6 +2738,12 @@ packages:
     dependencies:
       '@sentry/types': 6.19.7
       tslib: 1.14.1
+    dev: false
+
+  /@stencil/core/2.10.0:
+    resolution: {integrity: sha512-15rWMTPQ/sp0lSV82HVCXkIya3QLN+uBl7pqK4JnTrp4HiLrzLmNbWjbvgCs55gw0lULbCIGbRIEsFz+Pe/Q+A==}
+    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
+    hasBin: true
     dev: false
 
   /@stencil/core/2.8.0:
@@ -6431,10 +6437,10 @@ packages:
       side-channel: 1.0.4
     dev: true
 
-  /ionicons/5.5.3:
-    resolution: {integrity: sha512-L71djrMi8pAad66tpwdnO1vwcyluCFvehzxU1PpH1k/HpYBZhZ5IaYhqXipmqUvu5aEbd4cbRguYyI5Fd4bxTw==}
+  /ionicons/5.5.4:
+    resolution: {integrity: sha512-3ph8X9my3inhabWEZ7N0XRA0MnnNQ1v9a602mLNgWsIXnxE9G5BybIZ/pws/OZZ/hoNlvSjk801N03yL9/FNgQ==}
     dependencies:
-      '@stencil/core': 2.8.0
+      '@stencil/core': 2.10.0
     dev: false
 
   /ip-regex/2.1.0:
