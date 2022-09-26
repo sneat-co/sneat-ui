@@ -18,7 +18,7 @@ specifiers:
   '@angular/platform-browser': 12.2.14
   '@angular/platform-browser-dynamic': 12.2.14
   '@angular/router': 12.2.14
-  '@ionic/angular': 5.7.0
+  '@ionic/angular': 5.9.4
   '@ionic/core': 5.9.4
   '@sentry/browser': 6.19.7
   '@sentry/core': 6.19.7
@@ -59,7 +59,7 @@ dependencies:
   '@angular/platform-browser': 12.2.14_3bc1c39ef72a21481dfdf6c0f20dc2f7
   '@angular/platform-browser-dynamic': 12.2.14_442418796259eab646309caa3a362e35
   '@angular/router': 12.2.14_d60fa1aeec5307532f59bf85094c4f7a
-  '@ionic/angular': 5.7.0_e67359eea0b4335c60ed15c839d62207
+  '@ionic/angular': 5.9.4_e67359eea0b4335c60ed15c839d62207
   '@ionic/core': 5.9.4
   '@sentry/browser': 6.19.7
   '@sentry/core': 6.19.7
@@ -2376,8 +2376,8 @@ packages:
     resolution: {integrity: sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==}
     dev: true
 
-  /@ionic/angular/5.7.0_e67359eea0b4335c60ed15c839d62207:
-    resolution: {integrity: sha512-oJLpHYRevSmih7IuBVm/VoCHkl8H5V24ZFaPT2XdqixyxcnwmoeQ10ew/Ha0UjgUv8q6T8t5I5c/LUqgwGypjQ==}
+  /@ionic/angular/5.9.4_e67359eea0b4335c60ed15c839d62207:
+    resolution: {integrity: sha512-U/85FePF48VaZXTudTwpVXDqhGmYfarl/7vki7a4umnIORnWtHqD2/pXsqqZ/O1EcbALwULYIeVXAfkFpPd2wQ==}
     peerDependencies:
       '@angular/core': '>=8.2.7'
       '@angular/forms': '>=8.2.7'
@@ -2388,18 +2388,10 @@ packages:
       '@angular/core': 12.2.14_rxjs@7.3.0+zone.js@0.11.4
       '@angular/forms': 12.2.14_d60fa1aeec5307532f59bf85094c4f7a
       '@angular/router': 12.2.14_d60fa1aeec5307532f59bf85094c4f7a
-      '@ionic/core': 5.7.0
+      '@ionic/core': 5.9.4
       rxjs: 7.3.0
       tslib: 1.14.1
       zone.js: 0.11.4
-    dev: false
-
-  /@ionic/core/5.7.0:
-    resolution: {integrity: sha512-5GunAeZWDhjbo4/gFCYjA4vXP3V+8PEoGa9C+ZEojurpk7IBuAtI36KalCukrHLPoIbfUCywTXoZubfC1S6lHQ==}
-    dependencies:
-      '@stencil/core': 2.8.0
-      ionicons: 5.5.3
-      tslib: 2.3.1
     dev: false
 
   /@ionic/core/5.9.4:
