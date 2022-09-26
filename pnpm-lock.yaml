@@ -30,7 +30,7 @@ specifiers:
   codelyzer: 6.0.2
   eslint: 7.32.0
   eslint-plugin-import: 2.25.2
-  eslint-plugin-jsdoc: 36.1.0
+  eslint-plugin-jsdoc: 36.1.1
   eslint-plugin-prefer-arrow: 1.2.3
   firebase: 9.10.0
   ionicons: 5.5.3
@@ -86,7 +86,7 @@ devDependencies:
   codelyzer: 6.0.2
   eslint: 7.32.0
   eslint-plugin-import: 2.25.2_eslint@7.32.0
-  eslint-plugin-jsdoc: 36.1.0_eslint@7.32.0
+  eslint-plugin-jsdoc: 36.1.1_eslint@7.32.0
   eslint-plugin-prefer-arrow: 1.2.3_eslint@7.32.0
   jasmine-core: 3.9.0
   jasmine-spec-reporter: 7.0.0
@@ -602,10 +602,10 @@ packages:
       '@babel/traverse': 7.12.12
       '@babel/types': 7.12.12
       convert-source-map: 1.7.0
-      debug: 4.3.1
+      debug: 4.3.2
       gensync: 1.0.0-beta.2
       json5: 2.1.3
-      lodash: 4.17.20
+      lodash: 4.17.21
       semver: 5.7.1
       source-map: 0.5.7
     transitivePeerDependencies:
@@ -5234,8 +5234,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jsdoc/36.1.0_eslint@7.32.0:
-    resolution: {integrity: sha512-Qpied2AJCQcScxfzTObLKRiP5QgLXjMU/ITjBagEV5p2Q/HpumD1EQtazdRYdjDSwPmXhwOl2yquwOGQ4HOJNw==}
+  /eslint-plugin-jsdoc/36.1.1_eslint@7.32.0:
+    resolution: {integrity: sha512-nuLDvH1EJaKx0PCa9oeQIxH6pACIhZd1gkalTUxZbaxxwokjs7TplqY0Q8Ew3CoZaf5aowm0g/Z3JGHCatt+gQ==}
     engines: {node: ^12 || ^14 || ^16}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0
@@ -6837,7 +6837,7 @@ packages:
     resolution: {integrity: sha512-c16LpFRkR8vQXyHZ5nLpY35JZtzj1PQY1iZmesUbf1FZHbIupcWfjgOXBY9YHkLEQ6puz1u4Dgj6qmU/DisrZg==}
     engines: {node: '>=8'}
     dependencies:
-      debug: 4.3.1
+      debug: 4.3.2
       istanbul-lib-coverage: 3.0.0
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -7278,10 +7278,6 @@ packages:
 
   /lodash.uniq/4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
-    dev: true
-
-  /lodash/4.17.20:
-    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
     dev: true
 
   /lodash/4.17.21:
