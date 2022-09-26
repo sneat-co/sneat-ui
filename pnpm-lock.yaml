@@ -34,7 +34,7 @@ specifiers:
   eslint-plugin-prefer-arrow: 1.2.3
   firebase: 9.10.0
   ionicons: 5.5.3
-  jasmine-core: 3.9.0
+  jasmine-core: 3.99.1
   jasmine-spec-reporter: 7.0.0
   karma: 6.3.4
   karma-chrome-launcher: 3.1.0
@@ -88,13 +88,13 @@ devDependencies:
   eslint-plugin-import: 2.25.2_eslint@7.32.0
   eslint-plugin-jsdoc: 36.1.0_eslint@7.32.0
   eslint-plugin-prefer-arrow: 1.2.3_eslint@7.32.0
-  jasmine-core: 3.9.0
+  jasmine-core: 3.99.1
   jasmine-spec-reporter: 7.0.0
   karma: 6.3.4
   karma-chrome-launcher: 3.1.0
   karma-coverage: 2.0.3
   karma-jasmine: 4.0.1_karma@6.3.4
-  karma-jasmine-html-reporter: 1.7.0_510d50a9818d347be3ec4f30de4c4d7b
+  karma-jasmine-html-reporter: 1.7.0_5bce0c9e7a88ca3e81bbf6f635b9a093
   ng-packagr: 12.2.1_aded74d494482b19967b454a12929b97
   protractor: 7.0.0
   ts-node: 10.2.1_b4249ebc6f3fc3abec5689759acf39bc
@@ -6863,15 +6863,11 @@ packages:
     dev: true
 
   /jasmine-core/2.8.0:
-    resolution: {integrity: sha1-vMl5rh+f0FcB5F5S5l06XWPxok4=}
+    resolution: {integrity: sha512-SNkOkS+/jMZvLhuSx1fjhcNWUC/KG6oVyFUGkSBEr9n1axSNduWU8GlI7suaHXr4yxjet6KjrUZxUTE5WzzWwQ==}
     dev: true
 
-  /jasmine-core/3.6.0:
-    resolution: {integrity: sha512-8uQYa7zJN8hq9z+g8z1bqCfdC8eoDAeVnM5sfqs7KHv9/ifoJ500m018fpFc7RDaO6SWCLCXwo/wPSNcdYTgcw==}
-    dev: true
-
-  /jasmine-core/3.9.0:
-    resolution: {integrity: sha512-Tv3kVbPCGVrjsnHBZ38NsPU3sDOtNa0XmbG2baiyJqdb5/SPpDO6GVwJYtUryl6KB4q1Ssckwg612ES9Z0dreQ==}
+  /jasmine-core/3.99.1:
+    resolution: {integrity: sha512-Hu1dmuoGcZ7AfyynN3LsfruwMbxMALMka+YtZeGoLuDEySVmVAPaonkNoBRIw/ectu8b9tVQCJNgp4a4knp+tg==}
     dev: true
 
   /jasmine-spec-reporter/7.0.0:
@@ -7043,14 +7039,14 @@ packages:
       - supports-color
     dev: true
 
-  /karma-jasmine-html-reporter/1.7.0_510d50a9818d347be3ec4f30de4c4d7b:
+  /karma-jasmine-html-reporter/1.7.0_5bce0c9e7a88ca3e81bbf6f635b9a093:
     resolution: {integrity: sha512-pzum1TL7j90DTE86eFt48/s12hqwQuiD+e5aXx2Dc9wDEn2LfGq6RoAxEZZjFiN0RDSCOnosEKRZWxbQ+iMpQQ==}
     peerDependencies:
       jasmine-core: '>=3.8'
       karma: '>=0.9'
       karma-jasmine: '>=1.1'
     dependencies:
-      jasmine-core: 3.9.0
+      jasmine-core: 3.99.1
       karma: 6.3.4
       karma-jasmine: 4.0.1_karma@6.3.4
     dev: true
@@ -7061,7 +7057,7 @@ packages:
     peerDependencies:
       karma: '*'
     dependencies:
-      jasmine-core: 3.6.0
+      jasmine-core: 3.99.1
       karma: 6.3.4
     dev: true
 
