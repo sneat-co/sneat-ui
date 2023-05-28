@@ -25,7 +25,7 @@ specifiers:
   '@sentry/hub': 6.19.7
   '@sentry/minimal': 6.19.7
   '@sentry/utils': 6.19.7
-  '@types/jasmine': 3.9.0
+  '@types/jasmine': 3.10.8
   '@types/node': 14.17.27
   codelyzer: 6.0.2
   eslint: 7.32.0
@@ -81,7 +81,7 @@ devDependencies:
   '@angular-eslint/template-parser': 12.4.1_a9fc625b1959e7a36059916e34eb2931
   '@angular/cli': 12.2.18
   '@angular/compiler-cli': 12.2.14_6c19eb54935508966e07887c3bc3435b
-  '@types/jasmine': 3.9.0
+  '@types/jasmine': 3.10.8
   '@types/node': 14.17.27
   codelyzer: 6.0.2
   eslint: 7.32.0
@@ -2813,8 +2813,8 @@ packages:
       '@types/node': 14.17.27
     dev: true
 
-  /@types/jasmine/3.9.0:
-    resolution: {integrity: sha512-x7aAO0c4EpBEJkUd/v012GLO7tDXXtv+t7Cz5xK+WdSmitH27eHgsQr+36CblfJFuqBQ0++O0xgBTuaKJnB4fg==}
+  /@types/jasmine/3.10.8:
+    resolution: {integrity: sha512-SQ3vJjPZWIDCzgJP7Ha/GjhgWUxZvpo7vTuLkp6BWJ26tlRK2v26/wi5G0xWw/6Ks10pwyMaCtssB/TazwH/Tg==}
     dev: true
 
   /@types/json-schema/7.0.9:
@@ -5841,7 +5841,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
