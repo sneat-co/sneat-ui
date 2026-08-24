@@ -1,5 +1,9 @@
 # Sneat UI
 
+Sneat UI is an active Angular component-library supplement for Sneat applications. It contains reusable UI packages that complement the broader Sneat frontend libraries.
+
+## Generated workspace
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
 <!-- dev-approach:v1 -->
